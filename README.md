@@ -7,7 +7,7 @@ The backend is the lightweight [light_ws2812 V2.2](https://github.com/cpldcpu/li
 I developed some of the animations using an ATmega328P and some using an ATmega1284P, but they should work also on other AVR microcontrollers.
 Feel free to test out other controllers and to contribute to the project.
 
-I will follow using a hopefully complete list of existing programs. To build and flash each of them, simply edit the first six lines of the Makefile and change it to your needs.
+I will follow with a hopefully complete list of existing programs. To build and flash each of them, simply edit the first six lines of the Makefile and change it to your needs.
 The specified hex-file can be built using `make all` and be flashed with avrdude using `make flash`. Make sure to specify the correct programmer, programmer port, used microcontroller, and the CPU frequency.
 
 pixeltester.c
@@ -24,5 +24,5 @@ This is my first animation. For testing, I hung my new led stripe around a lamp.
 I thought about making a cool physical animation with it, because it was hanging around like a curve.
 So if you got incidentally a led stripe bending down like a bow or arch you may like this animation if firstly the number of pixels and secondly the starting, ending, and center point of the curve are defined in the C file.
 
-You may like to watch my setup on [YouTube](http://youtu.be/bFX1fudH1B0).
+You may also like to watch my setup on [YouTube](http://youtu.be/bFX1fudH1B0).
 
