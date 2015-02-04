@@ -1,9 +1,9 @@
-MMCU=atmega328p
-F_CPU=16000000
-PROG=arduino
-PROG_PORT=/dev/ttyUSB0
+MMCU=atmega1284p
+F_CPU=8000000
+PROG=usbasp
+PROG_PORT=usb
 
-TARGET=schaukel.hex
+TARGET=rgbfader.hex
 
 OBJ=Light_WS2812/light_ws2812.o
 
