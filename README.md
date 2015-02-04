@@ -26,3 +26,7 @@ So if you got incidentally a led stripe bending down like a bow or arch you may 
 
 You may also like to watch my setup on [YouTube](http://youtu.be/bFX1fudH1B0).
 
+rgbfader.c
+----------
+
+This animation was done for the plexiglass logo-sign of das labor in Bochum. Basically usable as a testing animation as it is fading slowly and colorful.
